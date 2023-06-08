@@ -7,7 +7,7 @@
 		
 		if(remainTime === 0) {
 			window.clearInterval(intervalId);
-			window['location']['href'] = 'https://github.com/isegye-dimigo/';
+			window['location'].replace('https://github.com/isegye-dimigo');
 		}
 		
 		return;
